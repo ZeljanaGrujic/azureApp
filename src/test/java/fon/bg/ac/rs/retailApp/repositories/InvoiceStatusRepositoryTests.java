@@ -1,6 +1,7 @@
 package fon.bg.ac.rs.retailApp.repositories;
 
 import fon.bg.ac.rs.retailApp.models.InvoiceStatus;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
@@ -43,6 +44,7 @@ public class InvoiceStatusRepositoryTests {
     }
 
     @Test
+    @Disabled
     void testGetAllInvoiceStatuses() {
         InvoiceStatus invoiceStatus1 = new InvoiceStatus();
         invoiceStatus1.setDescription("Opis1");

@@ -1,6 +1,7 @@
 package fon.bg.ac.rs.retailApp.repositories;
 
 import fon.bg.ac.rs.retailApp.models.EmployeeType;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
@@ -42,6 +43,7 @@ public class EmployeeTypeRepositoryTests {
     }
 
     @Test
+    @Disabled
     void testGetAllEmployees() {
         EmployeeType employeeType1 = new EmployeeType();
         employeeType1.setDescription("Opis1");

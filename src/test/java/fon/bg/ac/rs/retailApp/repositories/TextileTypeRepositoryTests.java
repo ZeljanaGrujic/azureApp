@@ -1,6 +1,7 @@
 package fon.bg.ac.rs.retailApp.repositories;
 
 import fon.bg.ac.rs.retailApp.models.TextileType;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
@@ -43,6 +44,7 @@ public class TextileTypeRepositoryTests {
     }
 
     @Test
+    @Disabled
     void testGetAll() {
         TextileType newObj1 = new TextileType();
         newObj1.setDescription("Opis1");

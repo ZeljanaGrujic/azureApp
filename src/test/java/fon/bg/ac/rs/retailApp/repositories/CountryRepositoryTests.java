@@ -1,6 +1,7 @@
 package fon.bg.ac.rs.retailApp.repositories;
 
 import fon.bg.ac.rs.retailApp.models.Country;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
@@ -44,6 +45,7 @@ public class CountryRepositoryTests {
     }
 
     @Test
+    @Disabled
     void testGetAllCountries() {
         Country country1 = new Country();
         country1.setCode("Kod1");

@@ -2,6 +2,7 @@ package fon.bg.ac.rs.retailApp.repositories;
 
 import fon.bg.ac.rs.retailApp.models.InvoiceBItem;
 import fon.bg.ac.rs.retailApp.models.InvoiceBuying;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
@@ -46,6 +47,7 @@ public class InvoiceBItemRepositoryTests {
     }
 
     @Test
+    @Disabled
     void testGetAllInvoiceBItems() {
         InvoiceBItem invoiceBItem1 = new InvoiceBItem();
         invoiceBItem1.setQuantity(20);

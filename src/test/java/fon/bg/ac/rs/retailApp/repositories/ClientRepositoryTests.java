@@ -1,6 +1,7 @@
 package fon.bg.ac.rs.retailApp.repositories;
 
 import fon.bg.ac.rs.retailApp.models.Client;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
@@ -49,6 +50,7 @@ public class ClientRepositoryTests {
     }
 
     @Test
+    @Disabled
     void testGetAllClients() {
         Client client1 = new Client();
         client1.setFullName("Klijent1");

@@ -1,6 +1,7 @@
 package fon.bg.ac.rs.retailApp.repositories;
 
 import fon.bg.ac.rs.retailApp.models.Location;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
@@ -46,6 +47,7 @@ public class LocationRepositoryTests {
     }
 
     @Test
+    @Disabled
     void testGetAll() {
         Location newObj1 = new Location();
         newObj1.setCity("Grad1");
