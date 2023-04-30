@@ -3,3 +3,4 @@
 (1,'IZMENA klijenta','client1@gmail.com','Klijent 1 Prezime 1',2,'060-0000-011');
 */
 INSERT INTO USER VALUES(2,'test2','test2','test2','test2')
+INSERT INTO USER VALUES(3,'test23','test23','test23','test23')
